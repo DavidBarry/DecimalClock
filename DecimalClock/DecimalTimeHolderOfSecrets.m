@@ -40,14 +40,14 @@ const static int millisInADecimalSecond = 864;
 @implementation DecimalTimeHolderOfSecrets
 
 - (DecimalTimeComponents *)timeComponentsForMillis:(NSUInteger)millis {
-   int pings = millis / millisInADecimalSecond;
+   int seconds = millis / millisInADecimalSecond;
    
-   int teldar = pings / secondsInAnHour;
-   int leftOverPings = pings % secondsInAnHour;
-   int zingers = leftOverPings / secondsInAMinute;
-   leftOverPings = leftOverPings % secondsInAMinute;
+   int hours = seconds / secondsInAnHour;
+   int leftOverSeconds = seconds % secondsInAnHour;
+   int minutes = leftOverSeconds / secondsInAMinute;
+   leftOverSeconds = leftOverSeconds % secondsInAMinute;
    
-   return [DecimalTimeComponents componentsWithHours:teldar minutes:zingers seconds:leftOverPings];
+   return [DecimalTimeComponents componentsWithHours:hours minutes:minutes seconds:leftOverSeconds];
 }
 
 - (DecimalTimeComponents *)timeComponentsForNow {

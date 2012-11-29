@@ -130,20 +130,20 @@
 }
 
 - (void)ping {
-   DecimalTimeComponents *superTime = [self.theOneTruth timeComponentsForNow];
-   [self setNumber:superTime.hours forLabel:self.hourLabel];
-   [self setNumber:superTime.minutes / 10 forLabel:self.minuteTensLabel];
-   [self setNumber:superTime.minutes % 10 forLabel:self.minuteOnesLabel];
-   [self setNumber:superTime.seconds / 10 forLabel:self.secondTensLabel];
-   [self setNumber:superTime.seconds % 10 forLabel:self.secondOnesLabel];
+   DecimalTimeComponents *decimalTime = [self.theOneTruth timeComponentsForNow];
+   [self setNumber:decimalTime.hours forLabel:self.hourLabel];
+   [self setNumber:decimalTime.minutes / 10 forLabel:self.minuteTensLabel];
+   [self setNumber:decimalTime.minutes % 10 forLabel:self.minuteOnesLabel];
+   [self setNumber:decimalTime.seconds / 10 forLabel:self.secondTensLabel];
+   [self setNumber:decimalTime.seconds % 10 forLabel:self.secondOnesLabel];
 }
 
 - (void)setLabelsWithoutAnimation {
-   DecimalTimeComponents *superTime = [self.theOneTruth timeComponentsForNow];
-   self.hourLabel.text = [NSString stringWithFormat:@"%d", superTime.hours];
-   self.minuteTensLabel.text = [NSString stringWithFormat:@"%d", superTime.minutes / 10];
-   self.minuteOnesLabel.text = [NSString stringWithFormat:@"%d", superTime.minutes % 10];
-   self.secondTensLabel.text = [NSString stringWithFormat:@"%d", superTime.seconds / 10];
-   self.secondOnesLabel.text = [NSString stringWithFormat:@"%d", superTime.seconds % 10];
+   DecimalTimeComponents *decimalTime = [self.theOneTruth timeComponentsForNow];
+   self.hourLabel.text = [NSString stringWithFormat:@"%d", decimalTime.hours];
+   self.minuteTensLabel.text = [NSString stringWithFormat:@"%d", decimalTime.minutes / 10];
+   self.minuteOnesLabel.text = [NSString stringWithFormat:@"%d", decimalTime.minutes % 10];
+   self.secondTensLabel.text = [NSString stringWithFormat:@"%d", decimalTime.seconds / 10];
+   self.secondOnesLabel.text = [NSString stringWithFormat:@"%d", decimalTime.seconds % 10];
 }
 @end
