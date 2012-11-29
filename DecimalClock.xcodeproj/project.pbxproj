@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBBBA837166726470007AB2D /* DecimalTimeComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBBA834166726470007AB2D /* DecimalTimeComponents.m */; };
+		FBBBA83B166726580007AB2D /* DCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBBA83A166726580007AB2D /* DCAppDelegate.m */; };
+		FBBBA8401667267A0007AB2D /* Inconsolata.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBBBA83C1667267A0007AB2D /* Inconsolata.otf */; };
+		FBBBA8411667267A0007AB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBBA83D1667267A0007AB2D /* main.m */; };
+		FBBBA8461667268F0007AB2D /* DecimalClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBBA8441667268F0007AB2D /* DecimalClockViewController.m */; };
+		FBBBA857166729590007AB2D /* DecimalClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBBBA856166729590007AB2D /* DecimalClockViewController.xib */; };
+		FBBBA85916672BDA0007AB2D /* DecimalTimeHolderOfSecrets.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBBA85816672BDA0007AB2D /* DecimalTimeHolderOfSecrets.m */; };
+		FBD3E38614B7DCDD0008E3FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD3E38514B7DCDD0008E3FE /* UIKit.framework */; };
+		FBD3E38814B7DCDD0008E3FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD3E38714B7DCDD0008E3FE /* Foundation.framework */; };
+		FBD3E38A14B7DCDD0008E3FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD3E38914B7DCDD0008E3FE /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBBBA833166726470007AB2D /* DecimalTimeComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecimalTimeComponents.h; path = DecimalClock/DecimalTimeComponents.h; sourceTree = SOURCE_ROOT; };
+		FBBBA834166726470007AB2D /* DecimalTimeComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DecimalTimeComponents.m; path = DecimalClock/DecimalTimeComponents.m; sourceTree = SOURCE_ROOT; };
+		FBBBA835166726470007AB2D /* DecimalTimeHolderOfSecrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecimalTimeHolderOfSecrets.h; path = DecimalClock/DecimalTimeHolderOfSecrets.h; sourceTree = SOURCE_ROOT; };
+		FBBBA839166726580007AB2D /* DCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCAppDelegate.h; path = DecimalClock/DCAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		FBBBA83A166726580007AB2D /* DCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCAppDelegate.m; path = DecimalClock/DCAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		FBBBA83C1667267A0007AB2D /* Inconsolata.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Inconsolata.otf; path = DecimalClock/Inconsolata.otf; sourceTree = SOURCE_ROOT; };
+		FBBBA83D1667267A0007AB2D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DecimalClock/main.m; sourceTree = SOURCE_ROOT; };
+		FBBBA83E1667267A0007AB2D /* DecimalClock-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DecimalClock-Info.plist"; path = "DecimalClock/DecimalClock-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FBBBA83F1667267A0007AB2D /* DecimalClock-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DecimalClock-Prefix.pch"; path = "DecimalClock/DecimalClock-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		FBBBA8431667268F0007AB2D /* DecimalClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecimalClockViewController.h; path = DecimalClock/DecimalClockViewController.h; sourceTree = SOURCE_ROOT; };
+		FBBBA8441667268F0007AB2D /* DecimalClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DecimalClockViewController.m; path = DecimalClock/DecimalClockViewController.m; sourceTree = SOURCE_ROOT; };
+		FBBBA856166729590007AB2D /* DecimalClockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DecimalClockViewController.xib; path = DecimalClock/DecimalClockViewController.xib; sourceTree = SOURCE_ROOT; };
+		FBBBA85816672BDA0007AB2D /* DecimalTimeHolderOfSecrets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DecimalTimeHolderOfSecrets.m; path = DecimalClock/DecimalTimeHolderOfSecrets.m; sourceTree = SOURCE_ROOT; };
+		FBD3E38114B7DCDD0008E3FE /* DecimalClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecimalClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD3E38514B7DCDD0008E3FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBD3E38714B7DCDD0008E3FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBD3E38914B7DCDD0008E3FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBD3E39D14B7DCDD0008E3FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD3E37E14B7DCDD0008E3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD3E38614B7DCDD0008E3FE /* UIKit.framework in Frameworks */,
+				FBD3E38814B7DCDD0008E3FE /* Foundation.framework in Frameworks */,
+				FBD3E38A14B7DCDD0008E3FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD3E37614B7DCDD0008E3FE = {
+			isa = PBXGroup;
+			children = (
+				FBD3E38B14B7DCDD0008E3FE /* SuperTimeClock */,
+				FBD3E38414B7DCDD0008E3FE /* Frameworks */,
+				FBD3E38214B7DCDD0008E3FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD3E38214B7DCDD0008E3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD3E38114B7DCDD0008E3FE /* DecimalClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD3E38414B7DCDD0008E3FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBD3E38514B7DCDD0008E3FE /* UIKit.framework */,
+				FBD3E38714B7DCDD0008E3FE /* Foundation.framework */,
+				FBD3E38914B7DCDD0008E3FE /* CoreGraphics.framework */,
+				FBD3E39D14B7DCDD0008E3FE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBD3E38B14B7DCDD0008E3FE /* SuperTimeClock */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBA839166726580007AB2D /* DCAppDelegate.h */,
+				FBBBA83A166726580007AB2D /* DCAppDelegate.m */,
+				FBBBA8431667268F0007AB2D /* DecimalClockViewController.h */,
+				FBBBA8441667268F0007AB2D /* DecimalClockViewController.m */,
+				FBBBA856166729590007AB2D /* DecimalClockViewController.xib */,
+				FBD3E3B414B7DE4F0008E3FE /* Time Model */,
+				FBD3E38C14B7DCDD0008E3FE /* Supporting Files */,
+			);
+			path = SuperTimeClock;
+			sourceTree = "<group>";
+		};
+		FBD3E38C14B7DCDD0008E3FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBA83C1667267A0007AB2D /* Inconsolata.otf */,
+				FBBBA83D1667267A0007AB2D /* main.m */,
+				FBBBA83E1667267A0007AB2D /* DecimalClock-Info.plist */,
+				FBBBA83F1667267A0007AB2D /* DecimalClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBD3E3B414B7DE4F0008E3FE /* Time Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBA833166726470007AB2D /* DecimalTimeComponents.h */,
+				FBBBA834166726470007AB2D /* DecimalTimeComponents.m */,
+				FBBBA835166726470007AB2D /* DecimalTimeHolderOfSecrets.h */,
+				FBBBA85816672BDA0007AB2D /* DecimalTimeHolderOfSecrets.m */,
+			);
+			name = "Time Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD3E38014B7DCDD0008E3FE /* DecimalClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD3E3AE14B7DCDD0008E3FE /* Build configuration list for PBXNativeTarget "DecimalClock" */;
+			buildPhases = (
+				FBD3E37D14B7DCDD0008E3FE /* Sources */,
+				FBD3E37E14B7DCDD0008E3FE /* Frameworks */,
+				FBD3E37F14B7DCDD0008E3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecimalClock;
+			productName = SuperTimeClock;
+			productReference = FBD3E38114B7DCDD0008E3FE /* DecimalClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD3E37814B7DCDD0008E3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FBD3E37B14B7DCDD0008E3FE /* Build configuration list for PBXProject "DecimalClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBD3E37614B7DCDD0008E3FE;
+			productRefGroup = FBD3E38214B7DCDD0008E3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD3E38014B7DCDD0008E3FE /* DecimalClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD3E37F14B7DCDD0008E3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBBA8401667267A0007AB2D /* Inconsolata.otf in Resources */,
+				FBBBA857166729590007AB2D /* DecimalClockViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD3E37D14B7DCDD0008E3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBBA837166726470007AB2D /* DecimalTimeComponents.m in Sources */,
+				FBBBA83B166726580007AB2D /* DCAppDelegate.m in Sources */,
+				FBBBA8411667267A0007AB2D /* main.m in Sources */,
+				FBBBA8461667268F0007AB2D /* DecimalClockViewController.m in Sources */,
+				FBBBA85916672BDA0007AB2D /* DecimalTimeHolderOfSecrets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBD3E3AC14B7DCDD0008E3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBD3E3AD14B7DCDD0008E3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD3E3AF14B7DCDD0008E3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecimalClock/DecimalClock-Prefix.pch";
+				INFOPLIST_FILE = "DecimalClock/DecimalClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBD3E3B014B7DCDD0008E3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecimalClock/DecimalClock-Prefix.pch";
+				INFOPLIST_FILE = "DecimalClock/DecimalClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD3E37B14B7DCDD0008E3FE /* Build configuration list for PBXProject "DecimalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD3E3AC14B7DCDD0008E3FE /* Debug */,
+				FBD3E3AD14B7DCDD0008E3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD3E3AE14B7DCDD0008E3FE /* Build configuration list for PBXNativeTarget "DecimalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD3E3AF14B7DCDD0008E3FE /* Debug */,
+				FBD3E3B014B7DCDD0008E3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD3E37814B7DCDD0008E3FE /* Project object */;
+}
