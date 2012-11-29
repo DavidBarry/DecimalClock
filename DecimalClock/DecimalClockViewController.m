@@ -42,8 +42,7 @@
 
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
    [super viewDidLoad];
    self.hourLabel.font = [UIFont fontWithName:@"Inconsolata" size:400.0];
    self.minuteTensLabel.font = [UIFont fontWithName:@"Inconsolata" size:200.0];
@@ -52,7 +51,7 @@
    self.secondOnesLabel.font = [UIFont fontWithName:@"inconsolata" size:72.0];
    
    [self setLabelsWithoutAnimation];
-   // Do any additional setup after loading the view from its nib.
+    
    self.pingTimer = [NSTimer scheduledTimerWithTimeInterval:([self.theOneTruth millisInADecimalSecond] / 1000.0) target:self selector:@selector(ping) userInfo:nil repeats:YES];
 }
 
@@ -63,9 +62,7 @@
    return _theOneTruth;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-   // Return YES for supported orientations
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
